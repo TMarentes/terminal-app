@@ -1,13 +1,16 @@
-R1	Answers to all the documentation requirements below.
+# Theo Marentes T1A3
+## Terminal Application
+
 R2	Your README.md should have a separate heading for each documentation requirement and answers organised under the appropriate headings.
 R3	Provide full attribution to referenced sources (where applicable).
-R4	Provide a link to your source control repository
-R5	
-Identify any code style guide or styling conventions that the application will adhere to.
 
+### GitHub Repository: [github.com/TMarentes/portfolio](https://github.com/TMarentes/portfolio) 
+
+### code style guide or styling conventions that the application will adhere to.
 Reference the chosen style guide appropriately.
 
-R6	Develop a list of features that will be included in the application. It must include:
+
+### list of features that will be included in the application. It must include:
 - at least THREE features
 - describe each feature
 
@@ -17,8 +20,11 @@ Note: Ensure that your features above allow you to demonstrate your understandin
 - error handling
 
 Consult with your educator to check your features are sufficient .
-R7	
-Develop an implementation plan which:
+
+
+
+
+### implementation plan
 - outlines how each feature will be implemented and a checklist of tasks for each feature
 - prioritise the implementation of different features, or checklist items within a feature
 - provide a deadline, duration or other time indicator for each feature or checklist/checklist-item
@@ -30,8 +36,8 @@ Provide screenshots/images and/or a reference to an accessible project managemen
 
 > Your checklists for each feature should have at least 5 items.
 
-R8	
-Design help documentation which includes a set of instructions which accurately describe how to use and install the application.
+
+### Design help documentation which includes a set of instructions which accurately describe how to use and install the application.
 
 You must include:
 - steps to install the application
