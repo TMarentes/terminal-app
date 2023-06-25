@@ -1,11 +1,18 @@
+#add training status
+#add salary
+
 from terminal import Terminal 
 from user_input import UserInput
 from interface import Interface
 from search import Search
 from employee import Employee
 
-Employee("John Garrison", "john.g@gmail.com", "marketing")
-Employee("John Garrison2", "john.g@gmail.com", "marketing")
+Employee("Michael Scott", "michael.scott@gmail.com", "manager")
+Employee("Pam Beesly", "pam.beesly@gmail.com", "assistant")
+Employee("Jim Halpert", "jim.halpert@gmail.com", "sales")
+Employee("Dwight Schrute", "dwight.schrute@gmail.com", "sales")
+Employee("Angela Martin", "angela.martin@gmail.com", "accounting")
+Employee("Meredith Palmer", "angela.martin@gmail.com", "relations")
 
 if __name__ == "__main__":
 
