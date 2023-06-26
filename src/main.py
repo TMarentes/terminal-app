@@ -1,5 +1,10 @@
 #add training status
 #add salary
+#add list all users
+#add export as csv
+#handle errors
+#constraints, salary must be a number check
+
 
 from terminal import Terminal 
 from user_input import UserInput
@@ -49,7 +54,8 @@ if __name__ == "__main__":
                         search_results = Search.search_email(UserInput.search_by_email())
                         UserInput.enter_to_continue() 
                     case 3:
-                        pass # list all users
+                        Search.list_all()
+                        UserInput.enter_to_continue()
                     case 4:
                         pass
 

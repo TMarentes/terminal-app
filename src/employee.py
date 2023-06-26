@@ -60,6 +60,7 @@ class Employee:
             if Employee.employees[i].name.lower() == name.lower():
                 del Employee.employees[i]
                 found = True
+                break
 
         if found == True:
             print("Employee deleted")
@@ -72,6 +73,7 @@ class Employee:
             if Employee.employees[i].email.lower() == email.lower():
                 del Employee.employees[i]
                 found = True
+                break
 
         if found == True:
             print("Employee deleted")

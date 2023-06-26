@@ -28,3 +28,10 @@ class Search:
             pass
         else:
             print("Employee not found")
+
+    def list_all():
+        print("NAME, EMAIL, DEPARTMENT, SALARY")
+        for i in range(len(Employee.employees)):
+            line = ""
+            line += Employee.employees[i].name+", "+Employee.employees[i].email+", "+Employee.employees[i].department+", "+str(Employee.employees[i].salary)
+            print(line)
