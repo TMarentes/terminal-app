@@ -9,7 +9,8 @@ class UserInput:
         name = input("Enter a name: ")
         email = input("Enter an email: ")
         department = input("Enter a department: ")
-        return name, email, department
+        salary = input("Enter a salary: ")
+        return name, email, department, salary
     
     def enter_to_continue():
         input("Press enter to continue...")
@@ -23,5 +24,15 @@ class UserInput:
     def search_by_department():
         return input("Enter a department: ")
     
-    def edit_by_name():
-        return input("Enter new details (name, email, department): ")
+
+    def update_by_name():
+        return input("Enter a new name: ")
+
+    def update_by_email():
+        return input("Enter a new email: ")
+
+    def update_by_department():
+        return input("Enter a new department: ")
+    
+    def update_by_salary():
+        return input("Enter a new salary: ")

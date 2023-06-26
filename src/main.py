@@ -7,12 +7,12 @@ from interface import Interface
 from search import Search
 from employee import Employee
 
-Employee("Michael Scott", "michael.scott@gmail.com", "manager")
-Employee("Pam Beesly", "pam.beesly@gmail.com", "assistant")
-Employee("Jim Halpert", "jim.halpert@gmail.com", "sales")
-Employee("Dwight Schrute", "dwight.schrute@gmail.com", "sales")
-Employee("Angela Martin", "angela.martin@gmail.com", "accounting")
-Employee("Meredith Palmer", "angela.martin@gmail.com", "relations")
+Employee("Michael Scott", "michael.scott@gmail.com", "manager", 105000)
+Employee("Pam Beesly", "pam.beesly@gmail.com", "assistant", 62000)
+Employee("Jim Halpert", "jim.halpert@gmail.com", "sales", 86000)
+Employee("Dwight Schrute", "dwight.schrute@gmail.com", "sales", 87000)
+Employee("Angela Martin", "angela.martin@gmail.com", "accounting", 72000)
+Employee("Meredith Palmer", "angela.martin@gmail.com", "relations", 74000)
 
 if __name__ == "__main__":
 
@@ -49,6 +49,8 @@ if __name__ == "__main__":
                         search_results = Search.search_email(UserInput.search_by_email())
                         UserInput.enter_to_continue() 
                     case 3:
+                        pass # list all users
+                    case 4:
                         pass
 
             case 2:

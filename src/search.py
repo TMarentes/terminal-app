@@ -9,12 +9,7 @@ class Search:
         found = False
         for i in range(len(Employee.employees)):
             if name.lower() in Employee.employees[i].name.lower():
-                print(f"""
-EMPLOYEE DETAILS
-Employee Name: {Employee.employees[i].name} 
-Employee Email: {Employee.employees[i].email}
-Employee Department: {Employee.employees[i].department}
-""")
+                print(f"""Name: {Employee.employees[i].name}, Email: {Employee.employees[i].email}, Department: {Employee.employees[i].department}, Salary: {Employee.employees[i].salary}""")
                 found = True
 
         if found == True:
@@ -25,13 +20,8 @@ Employee Department: {Employee.employees[i].department}
     def search_email(email):
         found = False
         for i in range(len(Employee.employees)):
-            if Employee.employees[i].email.lower() == email.lower():
-                print(f"""
-EMPLOYEE DETAILS
-Employee Name: {Employee.employees[i].name} 
-Employee Email: {Employee.employees[i].email}
-Employee Department: {Employee.employees[i].department}
-""")
+            if email.lower() in Employee.employees[i].email.lower():
+                print(f"""Name: {Employee.employees[i].name}, Email: {Employee.employees[i].email}, Department: {Employee.employees[i].department}, Salary: {Employee.employees[i].salary}""")
                 found = True
 
         if found == True:

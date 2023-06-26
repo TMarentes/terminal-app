@@ -4,14 +4,14 @@ class Interface:
 
     def start_interface():
         print("""
-    Welcome to Theo's Human Resources Manager
-    --> Terminal Application
-    --> Term 1 Assignment 3
+    THEO'S HUMAN RESOURCES MANAGER
+    -> Terminal Application
+    -> Term 1 Assignment 3
         """)
     
     def menu_interface():
         print("""
-    HUMAN RESOURCES - HOME MENU
+    HUMAN RESOURCES HOME MENU
     [1] Search employees
     [2] Edit employee
     [3] Add new employee
@@ -24,7 +24,8 @@ class Interface:
     EMPLOYEE SEARCH OPTIONS
     [1] Search by name
     [2] Search by email
-    [3] Go back
+    [3] List all employees
+    [4] Go back
     [Enter anything else to exit]
         """)
 

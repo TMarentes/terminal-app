@@ -2,25 +2,25 @@ from user_input import UserInput
 
 class Employee:
     employees = []
-    def __init__ (self, name, email, department):
+    def __init__ (self, name, email, department, salary):
         self.name = name
         self.email = email
         self.department = department
+        self.salary = salary
         Employee.employees.append(self)
 
     def edit_employee_by_name(name):
-        input = UserInput.edit_by_name()
-        input = input.split(',')
-        input_name = input[0]
-        input_email = input[1]
-        input_department = input[2]
+        input_name = UserInput.update_by_name()
+        input_email = UserInput.update_by_email()
+        input_department = UserInput.update_by_department()
+        input_salary = UserInput.update_by_salary()
         found = False
-        index = 0
         for i in range(len(Employee.employees)):
             if Employee.employees[i].name.lower() == name.lower():
                 Employee.employees[i].name = input_name
                 Employee.employees[i].email = input_email
                 Employee.employees[i].department = input_department
+                Employee.employees[i].salary = input_salary
                 found = True
 
         if found == True:
@@ -31,18 +31,17 @@ class Employee:
 
 
     def edit_employee_by_email(self, email):
-        input = UserInput.edit_by_email()
-        input = input.split(',')
-        input_name = input[0]
-        input_email = input[1]
-        input_department = input[2]
+        input_name = UserInput.update_by_name()
+        input_email = UserInput.update_by_email()
+        input_department = UserInput.update_by_department()
+        input_salary = UserInput.update_by_salary()
         found = False
-        index = 0
         for i in range(len(Employee.employees)):
             if Employee.employees[i].email.lower() == email.lower():
                 Employee.employees[i].name = input_name
                 Employee.employees[i].email = input_email
                 Employee.employees[i].department = input_department
+                Employee.employees[i].salary = input_salary
                 found = True
 
         if found == True:
@@ -51,8 +50,8 @@ class Employee:
             print("Employee not found")
 
 
-    def new_employee(name, email, department):
-        Employee(name, email, department)
+    def new_employee(name, email, department, salary):
+        Employee(name, email, department, salary)
         print("New employee," ,name, ", was added")
 
     def delete_employee_by_name(name):
