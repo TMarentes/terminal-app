@@ -1,9 +1,12 @@
 # Human Resources: Terminal Application
 ### GitHub Repository: [github.com/tmarentes/terminal-app](https://github.com/TMarentes/terminal-app) 
+<br>
 
-### Styling Convention
+## Styling Convention
 PEP8 Styling Convention
 https://peps.python.org/pep-0008/
+
+<br>
 
 ## Features
 ### Search by name or email
@@ -12,16 +15,23 @@ https://peps.python.org/pep-0008/
 ### Add new employee
 ### Edit existing employee
 
-
+<br>
 
 ## Implementation Plan
+### Initial Steps
+|Task|Deadline|Status|
+|----------------|:------:|:----:|
+|Create github repository|  24/06/23      |  ✅  | 
+|Connect git|  24/06/23      |  ✅  | 
+|Write Pseudocode|  25/06/23      |  ✅  | 
+|Create assigment directories|  25/06/23      |  ✅  | 
+|Create python files|  25/06/23      |  ✅  | 
+|Setup shell script|  26/06/23      |  ✅  | 
+|Create python classes| 26/06/23       |  ✅  | 
+
 ### Search by name or email
 How feature will be implemented
-|Task|Status|
-|----|------|
-|    |      | 
-|    |      | 
-|    |      |
+
 
 - outlines how each feature will be implemented and a checklist of tasks for each feature
 - prioritise the implementation of different features, or checklist items within a feature
@@ -34,6 +44,8 @@ Provide screenshots/images and/or a reference to an accessible project managemen
 
 > Your checklists for each feature should have at least 5 items.
 
+
+<br>
 
 ### Design help documentation which includes a set of instructions which accurately describe how to use and install the application.
 
