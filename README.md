@@ -1,6 +1,5 @@
-# Theo Marentes T1A3: Terminal Application
-## Human Resources Manager
-### GitHub Repository: [github.com/TMarentes/terminal-app](https://github.com/TMarentes/terminal-app) 
+# Human Resources: Terminal Application
+### GitHub Repository: [github.com/tmarentes/terminal-app](https://github.com/TMarentes/terminal-app) 
 
 ### Styling Convention
 PEP8 Styling Convention
