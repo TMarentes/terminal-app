@@ -33,6 +33,7 @@ In the early stages of developing a terminal application in Python, the first st
 
 ![Trello Board](docs/initial_steps.png)
 
+<br>
 
 ### Interface
 An interface will be created with an interface class with multi-line print statements as functions.
@@ -41,54 +42,79 @@ An interface will be created with an interface class with multi-line print state
 |----------------|:------:|:----:|
 |create interfaces class|  27/06/23      |  ✅  | 
 |write interface print function|  27/06/23      |   ✅ | 
-|add interface function to main.py|  27/06/23      |  ✅  | 
-|initialise employees class|  27/06/23      |  ✅  | 
+|add interface function to main.py|  28/06/23      |  ✅  | 
+|initialise employees class|  28/06/23      |  ✅  | 
 
 ![Trello Board](docs/interfaces.png)
 
+<br>
+
 ### Search by name or email
-- create search menu interface
-- initialise search class
-- write search by name function
-- write search by email function
-- add search class to main.py
-- run pytests on search functions
+The search functionality will use a Search class with functions that access the Employee class.
+
+|Task|Deadline|Status|
+|----------------|:------:|:----:|
+|create search menu interface|  28/06/23      |  ✅  | 
+|initialise search class|  28/06/23      |  ✅  | 
+|write search by name function|  29/06/23      |  ✅  | 
+|write search by email function|  29/06/23      |  ✅  | 
+|add search class to main.py|  29/06/23      |  ✅  | 
+|run pytests on search functions|  05/07/23      |    | 
+
+![Trello Board](docs/search.png)
+
+<br>
+
 ### View all employees
-- create view all function in search class
-- run pytests on view all function
-### Export employees to csv
-- create export interface
-- initialise export class
-- write export all to csv function
-- write export by name
-- write export by email
+To view all employees, a method in the Search class accesses the entire Employee class.
+
+|Task|Deadline|Status|
+|----------------|:------:|:----:|
+|create view all function in search class|  30/06/23      |  ✅  | 
+|run pytests on view all function| 05/07/23     |  ✅  | 
+
+
+
+<br>
+
 ### Add & delete employees
-- create add new employee interface
-- create delete employee interface
-- create user input for new employee
-- add employee class method to add new employee
-- add employee class method to remove employee
+To add and delete employees, methods are used in the Employee class.
+
+|Task|Deadline|Status|
+|----------------|:------:|:----:|
+|create add new employee interface|  01/07/23      |  ✅  | 
+|create delete employee interface| 01/07/23     |  ✅  | 
+|create user input for new employee|  01/07/23      |  ✅  | 
+|add employee class method to add new employee|  01/07/23      |  ✅  | 
+|add employee class method to remove employee|  01/07/23      |  ✅  | 
+
+![Trello Board](docs/add-delete.png)
+
+<br>
 
 ### Edit existing employee
-- create edit employee interface
-- create user input for new data
-- add employee class method to edit employee
+To edit an existing employee, the user first must search for the employee, then will be prompted with inputs for the new information.
+
+|Task|Deadline|Status|
+|----------------|:------:|:----:|
+|create edit employee interface|  02/07/23      |  ✅  | 
+|create user input for new data| 02/07/23     |  ✅  | 
+|add employee class method to edit employee|  02/07/23      |  ✅  | 
 
 
-How feature will be implemented
 
+### Export employees to csv
+Employees are exported using the csv module in python.
 
-- outlines how each feature will be implemented and a checklist of tasks for each feature
-- prioritise the implementation of different features, or checklist items within a feature
-- provide a deadline, duration or other time indicator for each feature or checklist/checklist-item
+|Task|Deadline|Status|
+|----------------|:------:|:----:|
+|create export interface|  03/07/23      |  ✅  | 
+|initialise export class| 03/07/23     |  ✅  | 
+|write export all to csv function|  03/07/23      |  ✅  | 
+|write export by name|  03/07/23      |  ✅  | 
+|write export by email|  03/07/23      |  ✅  | 
 
-Utilise a suitable project management platform to track this implementation plan.
-
-Provide screenshots/images and/or a reference to an accessible project management platform used to track this implementation plan. 
-
-
-> Your checklists for each feature should have at least 5 items.
-
+![Trello Board](docs/export.png)
 
 <br>
 
