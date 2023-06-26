@@ -7,7 +7,7 @@ class Search:
 
     def search_name(name):
         found = False
-        employee = {}
+        employee = []
         for i in range(len(Employee.employees)):
             
             if name.lower() in Employee.employees[i].name.lower():

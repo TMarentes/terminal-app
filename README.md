@@ -3,25 +3,30 @@
 R2	Your README.md should have a separate heading for each documentation requirement and answers organised under the appropriate headings.
 R3	Provide full attribution to referenced sources (where applicable).
 
-### GitHub Repository: [github.com/TMarentes/terminal-app](https://github.com/TMarentes/terminal-app) 
+## GitHub Repository: [github.com/TMarentes/terminal-app](https://github.com/TMarentes/terminal-app) 
 
-### code style guide or styling conventions that the application will adhere to.
-Reference the chosen style guide appropriately.
+### Styling Convention
+PEP8 Styling Convention
+https://peps.python.org/pep-0008/
 
-
-### list of features that will be included in the application. It must include:
-- at least THREE features
-- describe each feature
-
-- Search by name or email
-- View all employees
-- Export employees to csv
-- Add new employee
-- Edit existing employee
+## Features
+### Search by name or email
+### View all employees
+### Export employees to csv
+### Add new employee
+### Edit existing employee
 
 
 
-### implementation plan
+## Implementation Plan
+### Search by name or email
+How feature will be implemented
+|Task|Status|
+|----|------|
+|    |      | 
+|    |      | 
+|    |      |
+
 - outlines how each feature will be implemented and a checklist of tasks for each feature
 - prioritise the implementation of different features, or checklist items within a feature
 - provide a deadline, duration or other time indicator for each feature or checklist/checklist-item
