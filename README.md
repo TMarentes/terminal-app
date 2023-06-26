@@ -1,9 +1,6 @@
 # Theo Marentes T1A3: Terminal Application
-
-R2	Your README.md should have a separate heading for each documentation requirement and answers organised under the appropriate headings.
-R3	Provide full attribution to referenced sources (where applicable).
-
-## GitHub Repository: [github.com/TMarentes/terminal-app](https://github.com/TMarentes/terminal-app) 
+## Human Resources Manager
+### GitHub Repository: [github.com/TMarentes/terminal-app](https://github.com/TMarentes/terminal-app) 
 
 ### Styling Convention
 PEP8 Styling Convention
