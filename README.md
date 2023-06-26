@@ -12,7 +12,7 @@ https://peps.python.org/pep-0008/
 ### Search by name or email
 ### View all employees
 ### Export employees to csv
-### Add new employee
+### Add & delete employees
 ### Edit existing employee
 
 <br>
@@ -33,7 +33,48 @@ In the early stages of developing a terminal application in Python, the first st
 
 ![Trello Board](docs/initial_steps.png)
 
+
+### Interface
+An interface will be created with an interface class with multi-line print statements as functions.
+
+|Task|Deadline|Status|
+|----------------|:------:|:----:|
+|create interfaces class|  27/06/23      |  ✅  | 
+|write interface print function|  27/06/23      |   ✅ | 
+|add interface function to main.py|  27/06/23      |  ✅  | 
+|initialise employees class|  27/06/23      |  ✅  | 
+
+![Trello Board](docs/interfaces.png)
+
 ### Search by name or email
+- create search menu interface
+- initialise search class
+- write search by name function
+- write search by email function
+- add search class to main.py
+- run pytests on search functions
+### View all employees
+- create view all function in search class
+- run pytests on view all function
+### Export employees to csv
+- create export interface
+- initialise export class
+- write export all to csv function
+- write export by name
+- write export by email
+### Add & delete employees
+- create add new employee interface
+- create delete employee interface
+- create user input for new employee
+- add employee class method to add new employee
+- add employee class method to remove employee
+
+### Edit existing employee
+- create edit employee interface
+- create user input for new data
+- add employee class method to edit employee
+
+
 How feature will be implemented
 
 
