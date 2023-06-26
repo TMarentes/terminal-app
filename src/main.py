@@ -1,11 +1,9 @@
-#add training status
-#add salary
-#add list all users
 #add export as csv
 #handle errors
 #constraints, salary must be a number check
+#nested for loop
 
-
+from export import Export
 from terminal import Terminal 
 from user_input import UserInput
 from interface import Interface
@@ -29,7 +27,7 @@ if __name__ == "__main__":
         Interface.menu_interface()
 
         try:
-            option = UserInput.menu_selection()
+            option = UserInput.main_menu_selection()
         except ValueError:
             print("Closing application")
             break
@@ -39,7 +37,7 @@ if __name__ == "__main__":
                 Terminal.clear_terminal()
                 Interface.search_interface()
                 try:
-                    option2 = UserInput.menu_selection()
+                    option2 = UserInput.search_menu_selection()
                     Terminal.clear_terminal()
                 except ValueError:
                     print("Closing application")
@@ -48,22 +46,31 @@ if __name__ == "__main__":
                 match option2:
                     case 1:
                         search_results = Search.search_name(UserInput.search_by_name())
-                        # EXPORT AS CSV ?
-                        UserInput.enter_to_continue() 
+                        print(search_results)
+                        if (UserInput.export_as_csv()):
+                            Export.export_name_csv(search_results)
+                            UserInput.enter_to_continue() 
+
                     case 2:
                         search_results = Search.search_email(UserInput.search_by_email())
                         UserInput.enter_to_continue() 
+
                     case 3:
                         Search.list_all()
-                        UserInput.enter_to_continue()
+                        if (UserInput.export_as_csv()):
+                            Export.export_all_csv()
+                            UserInput.enter_to_continue() 
+                        
                     case 4:
                         pass
+                    
+
 
             case 2:
                 Terminal.clear_terminal()
                 Interface.edit_interface()
                 try:
-                    option3 = UserInput.menu_selection()
+                    option3 = UserInput.edit_menu_selection()
                     Terminal.clear_terminal()
                 except ValueError:
                     print("Closing application")
@@ -92,7 +99,7 @@ if __name__ == "__main__":
                 Terminal.clear_terminal()
                 Interface.delete_interface()
                 try:
-                    option4 = UserInput.menu_selection()
+                    option4 = UserInput.delete_menu_selection()
                     Terminal.clear_terminal()
                 except ValueError:
                     print("Closing application")

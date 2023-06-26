@@ -13,13 +13,11 @@ Reference the chosen style guide appropriately.
 - at least THREE features
 - describe each feature
 
-Note: Ensure that your features above allow you to demonstrate your understanding of the following language elements and concepts:
-- use of variables and the concept of variable scope
-- loops and conditional control structures
-- error handling
-
-Consult with your educator to check your features are sufficient .
-
+- Search by name or email
+- View all employees
+- Export employees to csv
+- Add new employee
+- Edit existing employee
 
 
 

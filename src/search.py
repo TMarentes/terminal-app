@@ -7,13 +7,16 @@ class Search:
 
     def search_name(name):
         found = False
+        employee = {}
         for i in range(len(Employee.employees)):
+            
             if name.lower() in Employee.employees[i].name.lower():
+                employee = [Employee.employees[i].name, Employee.employees[i].email, Employee.employees[i].department, Employee.employees[i].salary]
                 print(f"""Name: {Employee.employees[i].name}, Email: {Employee.employees[i].email}, Department: {Employee.employees[i].department}, Salary: {Employee.employees[i].salary}""")
                 found = True
 
         if found == True:
-            pass
+            return employee
         else:
             print("Employee not found")
 
