@@ -19,15 +19,19 @@ https://peps.python.org/pep-0008/
 
 ## Implementation Plan
 ### Initial Steps
+In the early stages of developing a terminal application in Python, the first steps are creating a GitHub repository and establishing a connection to Git. This enables version control as the project progresses.
+
 |Task|Deadline|Status|
 |----------------|:------:|:----:|
 |Create github repository|  24/06/23      |  ✅  | 
 |Connect git|  24/06/23      |  ✅  | 
+|Create assignment directories|  25/06/23      |  ✅  | 
 |Write Pseudocode|  25/06/23      |  ✅  | 
-|Create assigment directories|  25/06/23      |  ✅  | 
 |Create python files|  25/06/23      |  ✅  | 
 |Setup shell script|  26/06/23      |  ✅  | 
 |Create python classes| 26/06/23       |  ✅  | 
+
+![Trello Board](docs/initial_steps.png)
 
 ### Search by name or email
 How feature will be implemented
