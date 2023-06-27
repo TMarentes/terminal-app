@@ -55,6 +55,28 @@ Users will be able to edit existing employees within the database. Users could s
 
 <br>
 
+
+## Help Documentation
+
+### Dependencies
+
+<b>Python3: </b> [Python.org](https://www.python.org/downloads/)
+
+<b>Bash: </b> [Windows](https://hackernoon.com/how-to-install-bash-on-windows-10-lqb73yj3)  / [Mac](https://scriptingosx.com/2019/02/install-bash-5-on-macos/)
+
+
+### System Requirements
+This application runs on Windows, Mac or Linux.
+
+### Installation
+- steps to install the application
+
+### Commands
+- how to use any command line arguments made for the application
+
+<br> 
+
+
 ## Implementation Plan
 ### Initial Steps
 In the early stages of developing a terminal application in Python, the first steps are creating a GitHub repository and establishing a connection to Git. This enables version control as the project progresses.
@@ -153,22 +175,3 @@ Employees are exported using the csv module in python.
 |write export by email|  03/07/23      |  ✅  | 
 
 ![Trello Board](docs/export.png)
-
-<br>
-
-## Help Documentation
-
-### Dependencies
-<b>Python3: </b> [Python.org](https://www.python.org/downloads/)
-
-<b>Bash: </b> [Windows](https://hackernoon.com/how-to-install-bash-on-windows-10-lqb73yj3)  / [Mac](https://scriptingosx.com/2019/02/install-bash-5-on-macos/)
-
-### System Requirements
-- any system/hardware requirements
-
-### Installation
-- steps to install the application
-
-### Commands
-- how to use any command line arguments made for the application
-
