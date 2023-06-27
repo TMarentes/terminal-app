@@ -1,7 +1,5 @@
 #add export as csv
-#handle errors
-#constraints, salary must be a number check
-#nested for loop
+# 3 nested for loop
 
 from export import Export
 from terminal import Terminal 
@@ -92,7 +90,10 @@ if __name__ == "__main__":
             case 3:
                 Terminal.clear_terminal()
                 input = UserInput.new_employee()
-                Employee.new_employee(input[0], input[1], input[2])
+                try:
+                    Employee.new_employee(input[0], input[1], input[2], input[3])
+                except TypeError:
+                    print("Unable to create new employee")
                 UserInput.enter_to_continue() 
             
             case 4:

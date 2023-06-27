@@ -11,7 +11,7 @@ class Interface:
     
     def menu_interface():
         print("""
-    HUMAN RESOURCES HOME MENU
+    HUMAN RESOURCES MENU
     [1] Search employees
     [2] Edit employee
     [3] Add new employee

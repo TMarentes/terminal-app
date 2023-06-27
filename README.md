@@ -10,10 +10,37 @@ https://peps.python.org/pep-0008/
 
 ## Features
 ### Search by name or email
+This feature will allow users of the application to search for employees in the human resources application. Users can search by name, where the name must be an exact match, or users can search by email. The application can use a for loop to find matching employees.
+
+![Search by name or email](docs/employee_search.png)
+
+<br>
+
 ### View all employees
+Users will have the option to view all of the employees within the Employee class. Employees will be listed as one per line, with commas separating each attribute.
+
+![View all employees](docs/list_all.png)
+
+<br>
+
 ### Export employees to csv
+This feature will allow users of the application to export employees into a csv file. This will be done using the csv python module and file handling. Users will be prompted after searching for employees to ask whether they would like to export their search as a csv.
+
+![Export employees to csv](docs/export_csv.pngpng)
+
+<br>
+
 ### Add & delete employees
+Adding and deleting employees is vital in a human resources management system. Users will be able to add new employees to the database, as well as delete existing employees by name or email.
+
+![Add & delete employees](docs/employee_delete.png)
+
+<br>
+
 ### Edit existing employee
+Users will be able to edit existing employees within the database. Users could search by name or email to find the employee they wish to edit.
+
+![Edit existing employee](docs/edit_options.png)
 
 <br>
 
@@ -101,7 +128,7 @@ To edit an existing employee, the user first must search for the employee, then 
 |create user input for new data| 02/07/23     |  ✅  | 
 |add employee class method to edit employee|  02/07/23      |  ✅  | 
 
-
+<br>
 
 ### Export employees to csv
 Employees are exported using the csv module in python.

@@ -18,7 +18,7 @@ class UserInput:
         
     def edit_menu_selection():
         selection = int(input("Enter your selection: "))
-        if selection in (1,2,3,4):
+        if selection in (1,2,3):
             return selection
         else:
             raise ValueError
@@ -34,11 +34,16 @@ class UserInput:
         name = input("Enter a name: ")
         email = input("Enter an email: ")
         department = input("Enter a department: ")
-        salary = input("Enter a salary: ")
-        return name, email, department, salary
+        try:
+            salary = int(input("Enter a salary: "))
+            return name, email, department, salary
+        except ValueError:
+            print("Salary must be a number")
+        
     
     def export_as_csv():
         selection = input("""
+
 Type 'Yes' to export as csv, enter anything else to skip: """)
         if selection.lower() == "yes":
             return True
