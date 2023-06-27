@@ -26,7 +26,7 @@ Users will have the option to view all of the employees within the Employee clas
 ### Export employees to csv
 This feature will allow users of the application to export employees into a csv file. This will be done using the csv python module and file handling. Users will be prompted after searching for employees to ask whether they would like to export their search as a csv.
 
-![Export employees to csv](docs/export_csv.pngpng)
+![Export employees to csv](docs/export_csv.png)
 
 <br>
 
