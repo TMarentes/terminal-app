@@ -2,7 +2,7 @@
 ### GitHub Repository: [github.com/tmarentes/terminal-app](https://github.com/TMarentes/terminal-app) 
 <br>
 
-### Contents
+## Contents
 [Styling Convention](https://github.com/TMarentes/terminal-app#styling-convention)
 
 [Features](https://github.com/TMarentes/terminal-app#features)
@@ -109,7 +109,7 @@ To view all employees, a method in the Search class accesses the entire Employee
 |Task|Deadline|Status|
 |----------------|:------:|:----:|
 |create view all function in search class|  30/06/23      |  ✅  | 
-|run pytests on view all function| 05/07/23     |  ✅  | 
+|run pytests on view all function| 05/07/23     |    | 
 
 
 
@@ -156,10 +156,17 @@ Employees are exported using the csv module in python.
 
 <br>
 
-### Help Documentation
+## Help Documentation
 
-You must include:
-- steps to install the application
+### Dependencies
 - any dependencies required by the application to operate
+
+### System Requirements
 - any system/hardware requirements
+
+### Installation
+- steps to install the application
+
+### Commands
 - how to use any command line arguments made for the application
+

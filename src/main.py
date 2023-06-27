@@ -1,5 +1,13 @@
-#add export as csv
-# 3 nested for loop
+# add export as csv
+# nested for loop
+# Design TWO tests which check that the application is running as expected.
+
+# rubrik
+#Application handles ALL CATEGORIES of errors GRACEFULLY.
+#control structures WHICH CONTAIN THEIR OWN SCOPED VARIABLES AND COMPLEX NESTED STRUCTURES
+#Correctly imports FOUR OR MORE Python packages into the code
+
+
 
 from export import Export
 from terminal import Terminal 
