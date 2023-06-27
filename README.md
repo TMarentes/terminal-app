@@ -2,6 +2,17 @@
 ### GitHub Repository: [github.com/tmarentes/terminal-app](https://github.com/TMarentes/terminal-app) 
 <br>
 
+### Contents
+[Styling Convention](https://github.com/TMarentes/terminal-app#styling-convention)
+
+[Features](https://github.com/TMarentes/terminal-app#features)
+
+[Implementation Plan](https://github.com/TMarentes/terminal-app#impmlementation-plan)
+
+[Help Documentation](https://github.com/TMarentes/terminal-app#help-documentation)
+
+<br>
+
 ## Styling Convention
 PEP8 Styling Convention
 https://peps.python.org/pep-0008/
@@ -145,7 +156,7 @@ Employees are exported using the csv module in python.
 
 <br>
 
-### Design help documentation which includes a set of instructions which accurately describe how to use and install the application.
+### Help Documentation
 
 You must include:
 - steps to install the application
