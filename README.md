@@ -160,7 +160,8 @@ Employees are exported using the csv module in python.
 
 ### Dependencies
 <b>Python3: </b> [Python.org](https://www.python.org/downloads/)
-<b>Bash: </b> [Windows](https://hackernoon.com/how-to-install-bash-on-windows-10-lqb73yj3) [Mac](https://scriptingosx.com/2019/02/install-bash-5-on-macos/)
+
+<b>Bash: </b> [Windows](https://hackernoon.com/how-to-install-bash-on-windows-10-lqb73yj3)  / [Mac](https://scriptingosx.com/2019/02/install-bash-5-on-macos/)
 
 ### System Requirements
 - any system/hardware requirements
