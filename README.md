@@ -5,11 +5,13 @@
 ## Contents
 [Styling Convention](https://github.com/TMarentes/terminal-app#styling-convention)
 
-[Features](https://github.com/TMarentes/terminal-app#features)
+[Application Features](https://github.com/TMarentes/terminal-app#features)
+
+[Help Documentation](https://github.com/TMarentes/terminal-app#help-documentation)
 
 [Implementation Plan](https://github.com/TMarentes/terminal-app#impmlementation-plan)
 
-[Help Documentation](https://github.com/TMarentes/terminal-app#help-documentation)
+
 
 <br>
 
@@ -69,10 +71,36 @@ Users will be able to edit existing employees within the database. Users could s
 This application runs on Windows, Mac or Linux.
 
 ### Installation
-- steps to install the application
+1. Download the contents of the "src" folder in the GitHub repository
+2. Execute the "script.sh" file to run the application
+3. Users without Python3 installed will be prompted to install Python3
 
 ### Commands
-- how to use any command line arguments made for the application
+
+![Welcome Screen](docs/welcome_screen.png)
+
+Upon running the application, users are first greeted with a welcome screen. Users can enter anything to continue, or can simply press enter.
+
+
+<b>Main Menu Interface</b>
+The main menu interface presents 5 options to the user. 
+
+![Main Menu](docs/main_menu.png)
+
+- Entering "1" will open the Search interface
+- Entering "2" will open the Edit interface
+- Entering "3" will prompt users to add a new employee
+- Entering "4" will prompt users to delete an employee
+- Entering anything else will exit the application
+
+
+- enter to continue
+- number select, 1 2 3 4. anything else to exit
+<b>Search Employees Menu</b>
+<b>Edit Employees Menu</b>
+<b>Add Employee Menu</b>
+<b>Delete Employee Menu</b>
+
 
 <br> 
 
