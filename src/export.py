@@ -15,13 +15,13 @@ class Export:
         print("CSV Created 'export.csv'")
 
 
-    def export_name_csv(data):
+    def export_search_csv(data):
 
         with open('export.csv', 'w', newline='') as f:
             writer = csv.writer(f)
             writer.writerow(["Name", "Email", "Department", "Salary"])
             for i in range(len(data)):
-                writer.writerow([data[0] , data[1], data[2], data[3]])
+                writer.writerow([data[i][0], data[i][1], data[i][2], data[i][3]])
         print("CSV Created 'export.csv'")
 
 

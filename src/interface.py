@@ -1,12 +1,23 @@
+import time
+
 class Interface:
     def __init__(self):
         pass
 
+   
     def start_interface():
-        print("""
+        local = time.localtime()
+        local_hours = local.tm_hour
+        local_mins = local.tm_min
+        local_year = local.tm_year
+        local_month = local.tm_mon
+        local_day = local.tm_mday
+        print(f"""
     THEO'S HUMAN RESOURCES MANAGER
-    -> Terminal Application
-    -> Term 1 Assignment 3
+    Time: {local_hours}:{local_mins} - Date: {local_day}/{local_month}/{local_year}
+    -> Features: https://github.com/TMarentes/terminal-app#features
+    -> Documentation: https://github.com/TMarentes/terminal-app#help-documentation
+    
         """)
     
     def menu_interface():
