@@ -19,6 +19,7 @@ class Search:
             return employee
         else:
             print("Employee not found")
+            return employee
 
     def search_email(email):
         found = False
@@ -33,10 +34,14 @@ class Search:
             return employee
         else:
             print("Employee not found")
+            return employee
 
     def list_all():
         print("NAME, EMAIL, DEPARTMENT, SALARY")
+        employee_list = []
         for i in range(len(Employee.employees)):
             line = ""
-            line += Employee.employees[i].name+", "+Employee.employees[i].email+", "+Employee.employees[i].department+", "+str(Employee.employees[i].salary)
+            line = Employee.employees[i].name+", "+Employee.employees[i].email+", "+Employee.employees[i].department+", "+str(Employee.employees[i].salary)
+            employee_list.append([Employee.employees[i].name, Employee.employees[i].email, Employee.employees[i].department, str(Employee.employees[i].salary)])
             print(line)
+        return employee_list

@@ -8,6 +8,7 @@ class Employee:
         self.department = department
         self.salary = salary
         Employee.employees.append(self)
+    
 
     def edit_employee_by_name(name):
         found = False
@@ -67,6 +68,7 @@ class Employee:
     def new_employee(name, email, department, salary):
         Employee(name, email, department, salary)
         print("New employee," ,name, ", was added")
+        return "Employee added"
 
     def delete_employee_by_name(name):
         found = False
@@ -78,8 +80,10 @@ class Employee:
 
         if found == True:
             print("Employee deleted")
+            return found
         else:
             print("Employee not found")
+            return found
 
     def delete_employee_by_email(email):
         found = False

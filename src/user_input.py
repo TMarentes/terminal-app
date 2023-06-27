@@ -29,16 +29,7 @@ class UserInput:
             return selection
         else:
             raise ValueError
-    
-    def new_employee():
-        name = input("Enter a name: ")
-        email = input("Enter an email: ")
-        department = input("Enter a department: ")
-        try:
-            salary = int(input("Enter a salary: "))
-            return name, email, department, salary
-        except ValueError:
-            print("Salary must be a number")
+        
         
     
     def export_as_csv():
