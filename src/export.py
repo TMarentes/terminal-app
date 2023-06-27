@@ -16,12 +16,14 @@ class Export:
 
 
     def export_search_csv(data):
-
         with open('export.csv', 'w', newline='') as f:
             writer = csv.writer(f)
             writer.writerow(["Name", "Email", "Department", "Salary"])
             for i in range(len(data)):
-                writer.writerow([data[i][0], data[i][1], data[i][2], data[i][3]])
+                list_data = []
+                for j in range(0,4):
+                    list_data.append(data[i][j])
+                writer.writerow(list_data)
         print("CSV Created 'export.csv'")
 
 
