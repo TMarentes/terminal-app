@@ -207,7 +207,7 @@ The search functionality will use a Search class with functions that access the 
 |write search by name function|  29/06/23      |  ✅  | 
 |write search by email function|  29/06/23      |  ✅  | 
 |add search class to main.py|  29/06/23      |  ✅  | 
-|run pytests on search functions|  05/07/23      |    | 
+|run pytests on search functions|  05/07/23      | ✅   | 
 
 ![Trello Board](docs/search.png)
 
@@ -219,7 +219,7 @@ To view all employees, a method in the Search class accesses the entire Employee
 |Task|Deadline|Status|
 |----------------|:------:|:----:|
 |create view all function in search class|  30/06/23      |  ✅  | 
-|run pytests on view all function| 05/07/23     |    | 
+|run pytests on view all function| 05/07/23     |  ✅  | 
 
 
 
