@@ -81,7 +81,9 @@ This application runs on Windows, Mac or Linux.
 
 ### Installation
 1. Download the contents of the "src" folder in the GitHub repository
+![src folder](docs/download.png)
 2. Execute the "script.sh" file to run the application
+![script file](docs/scriptsh.png)
 3. Users without Python3 installed will be prompted to install Python3
 <br>
 
@@ -110,7 +112,7 @@ The main menu interface presents 5 options to the user.
 
 The search interface presents 5 options to the user. 
 
-![Main Menu](docs/search_interface.png)
+![Search Interface](docs/search_interface.png)
 
 - Entering "1" allows users to search for employees by name. This can be a partial-match to the name.
 - Entering "2" allows users to search for employees by email. This must be an exact match of the email.
@@ -118,7 +120,7 @@ The search interface presents 5 options to the user.
 - Entering "4" will take users back to the main menu interface.
 - Entering anything else will exit the application
 
-![Main Menu](docs/csv_export.png)
+![csv export](docs/csv_export.png)
 
 After searching or listing all of the employees, the user is asked whether they would like to export the employees as a csv. Typing "Yes" will create a csv file named "export.csv". If the file already exists, it will be overwritten.
 
@@ -128,7 +130,7 @@ After searching or listing all of the employees, the user is asked whether they 
 
 The edit interface presents 4 options to the user. 
 
-![Main Menu](docs/edit_interface.png)
+![Edit Interface](docs/edit_interface.png)
 
 - Entering "1" allows users to find employees by name, then edit their attributes.
 - Entering "2" allows users to find employees by email, then edit their attributes.
@@ -141,7 +143,7 @@ The edit interface presents 4 options to the user.
 
 The add employee interface takes 4 inputs from the user. 
 
-![Main Menu](docs/add_interface.png)
+![Add Employee](docs/add_interface.png)
 
 - The first prompt asks for the name of the employee.
 - The second prompt asks for the email of the employee.
@@ -154,7 +156,7 @@ The add employee interface takes 4 inputs from the user.
 
 The delete employee interface presents 4 options to the user. 
 
-![Main Menu](docs/delete_interface.png)
+![Delete Employee](docs/delete_interface.png)
 
 - Entering "1" allows users to find employees by name, then delete them.
 - Entering "2" allows users to find employees by email, then delete them.
