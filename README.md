@@ -3,7 +3,7 @@
 <br>
 
 ## Contents
-[Styling Convention](https://github.com/TMarentes/terminal-app#styling-convention)
+[Styling Conventions](https://github.com/TMarentes/terminal-app#styling-convention)
 
 [Application Features](https://github.com/TMarentes/terminal-app#features)
 
@@ -16,8 +16,14 @@
 <br>
 
 ## Styling Convention
-PEP8 Styling Convention
-https://peps.python.org/pep-0008/
+The [PEP8](https://peps.python.org/pep-0008/) styling convention was used in the development of this application. 
+
+<b>Snake Case: </b>The snake_case naming convention was adopted for this application. This kept the code clean and easy to read.
+
+<b>Code Layout: </b>The code adheres to the code layout guidelines in the PEP8 styling convention. Blank lines are used to indicate logical sections within functions and classes. The recommended max line length of 79 was used throughout the project to ensure readability.
+
+
+
 
 <br>
 
@@ -66,40 +72,93 @@ Users will be able to edit existing employees within the database. Users could s
 
 <b>Bash: </b> [Windows](https://hackernoon.com/how-to-install-bash-on-windows-10-lqb73yj3)  / [Mac](https://scriptingosx.com/2019/02/install-bash-5-on-macos/)
 
+<br>
 
 ### System Requirements
 This application runs on Windows, Mac or Linux.
+<br>
 
 ### Installation
 1. Download the contents of the "src" folder in the GitHub repository
 2. Execute the "script.sh" file to run the application
 3. Users without Python3 installed will be prompted to install Python3
+<br>
 
 ### Commands
 
 ![Welcome Screen](docs/welcome_screen.png)
 
 Upon running the application, users are first greeted with a welcome screen. Users can enter anything to continue, or can simply press enter.
-
+<br>
 
 <b>Main Menu Interface</b>
+
 The main menu interface presents 5 options to the user. 
 
 ![Main Menu](docs/main_menu.png)
 
-- Entering "1" will open the Search interface
-- Entering "2" will open the Edit interface
-- Entering "3" will prompt users to add a new employee
-- Entering "4" will prompt users to delete an employee
+- Entering "1" will open the search interface.
+- Entering "2" will open the edit interface.
+- Entering "3" will prompt users to add a new employee.
+- Entering "4" will prompt users to delete an employee.
+- Entering anything else will exit the application.
+
+<br>
+
+<b>Search Interface</b>
+
+The search interface presents 5 options to the user. 
+
+![Main Menu](docs/search_interface.png)
+
+- Entering "1" allows users to search for employees by name. This can be a partial-match to the name.
+- Entering "2" allows users to search for employees by email. This must be an exact match of the email.
+- Entering "3" lists all of the employees within the database.
+- Entering "4" will take users back to the main menu interface.
 - Entering anything else will exit the application
 
+![Main Menu](docs/csv_export.png)
 
-- enter to continue
-- number select, 1 2 3 4. anything else to exit
-<b>Search Employees Menu</b>
-<b>Edit Employees Menu</b>
-<b>Add Employee Menu</b>
-<b>Delete Employee Menu</b>
+After searching or listing all of the employees, the user is asked whether they would like to export the employees as a csv. Typing "Yes" will create a csv file named "export.csv". If the file already exists, it will be overwritten.
+
+<br>
+
+<b>Edit Interface</b>
+
+The edit interface presents 4 options to the user. 
+
+![Main Menu](docs/edit_interface.png)
+
+- Entering "1" allows users to find employees by name, then edit their attributes.
+- Entering "2" allows users to find employees by email, then edit their attributes.
+- Entering "3" will take users back to the main menu interface.
+- Entering anything else will exit the application
+
+<br>
+
+<b>Add Employee Interface</b>
+
+The add employee interface takes 4 inputs from the user. 
+
+![Main Menu](docs/add_interface.png)
+
+- The first prompt asks for the name of the employee.
+- The second prompt asks for the email of the employee.
+- The third prompt asks for the department of the employee.
+- The fourth prompt asks for the salary of the employee.
+
+<br>
+
+<b>Delete Employee Interface</b>
+
+The delete employee interface presents 4 options to the user. 
+
+![Main Menu](docs/delete_interface.png)
+
+- Entering "1" allows users to find employees by name, then delete them.
+- Entering "2" allows users to find employees by email, then delete them.
+- Entering "3" will take users back to the main menu interface.
+- Entering anything else will exit the application
 
 
 <br> 
