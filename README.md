@@ -81,10 +81,15 @@ This application runs on Windows, Mac or Linux.
 
 ### Installation
 1. Download the contents of the "src" folder in the GitHub repository
+
 ![src folder](docs/download.png)
+
 2. Execute the "script.sh" file to run the application
+
 ![script file](docs/scriptsh.png)
+
 3. Users without Python3 installed will be prompted to install Python3
+
 <br>
 
 ### Commands
