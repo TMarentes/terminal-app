@@ -5,7 +5,7 @@ class Search:
     def __init__ (self):
         pass
 
-    def search_name(name):
+    def search_name(name) -> list:
         found = False
         employee = []
         for i in range(len(Employee.employees)):
@@ -21,7 +21,7 @@ class Search:
             print("Employee not found")
             return employee
 
-    def search_email(email):
+    def search_email(email) -> list:
         found = False
         employee =[]
         for i in range(len(Employee.employees)):
@@ -36,7 +36,7 @@ class Search:
             print("Employee not found")
             return employee
 
-    def list_all():
+    def list_all() -> list:
         print("NAME, EMAIL, DEPARTMENT, SALARY")
         employee_list = []
         for i in range(len(Employee.employees)):

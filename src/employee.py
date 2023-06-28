@@ -10,7 +10,7 @@ class Employee:
         Employee.employees.append(self)
     
 
-    def edit_employee_by_name(name):
+    def edit_employee_by_name(name) -> None:
         found = False
         for i in range(len(Employee.employees)):
             if Employee.employees[i].name.lower() == name.lower():
@@ -38,7 +38,7 @@ class Employee:
 
 
 
-    def edit_employee_by_email(email):
+    def edit_employee_by_email(email) -> None:
         found = False
         for i in range(len(Employee.employees)):
             if Employee.employees[i].email.lower() == email.lower():
@@ -65,12 +65,12 @@ class Employee:
             print("Employee not found")
 
 
-    def new_employee(name, email, department, salary):
+    def new_employee(name, email, department, salary) -> str:
         Employee(name, email, department, salary)
         print("New employee," ,name, ", was added")
         return "Employee added"
 
-    def delete_employee_by_name(name):
+    def delete_employee_by_name(name)  -> bool:
         found = False
         for i in range(len(Employee.employees)):
             if Employee.employees[i].name.lower() == name.lower():
@@ -85,7 +85,7 @@ class Employee:
             print("Employee not found")
             return found
 
-    def delete_employee_by_email(email):
+    def delete_employee_by_email(email) -> bool:
         found = False
         for i in range(len(Employee.employees)):
             if Employee.employees[i].email.lower() == email.lower():
@@ -95,5 +95,7 @@ class Employee:
 
         if found == True:
             print("Employee deleted")
+            return found
         else:
             print("Employee not found")
+            return found

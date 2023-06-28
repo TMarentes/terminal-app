@@ -5,7 +5,7 @@ class Export:
     def __init__ (self):
         pass
 
-    def export_all_csv():
+    def export_all_csv() -> None:
 
         with open('export.csv', 'w', newline='') as f:
             writer = csv.writer(f)
@@ -15,7 +15,7 @@ class Export:
         print("CSV Created 'export.csv'")
 
 
-    def export_search_csv(data):
+    def export_search_csv(data) -> None:
         with open('export.csv', 'w', newline='') as f:
             writer = csv.writer(f)
             writer.writerow(["Name", "Email", "Department", "Salary"])

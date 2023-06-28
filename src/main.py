@@ -41,7 +41,7 @@ if __name__ == "__main__":
                     match option2:
                         case 1:
                             search_results = Search.search_name(UserInput.search_by_name())
-                            if search_results != None:
+                            if search_results != []:
                                 if (UserInput.export_as_csv()):
                                     Export.export_search_csv(search_results)
                                     UserInput.enter_to_continue() 
@@ -50,7 +50,8 @@ if __name__ == "__main__":
 
                         case 2:
                             search_results = Search.search_email(UserInput.search_by_email())
-                            if search_results != None:
+                            
+                            if search_results != []:
                                 if (UserInput.export_as_csv()):
                                     Export.export_search_csv(search_results)
                                     UserInput.enter_to_continue() 
