@@ -76,6 +76,7 @@ Users will be able to edit existing employees within the database. Users could s
 
 ### System Requirements
 This application runs on Windows, Mac or Linux.
+
 <br>
 
 ### Installation
