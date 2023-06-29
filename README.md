@@ -16,7 +16,7 @@
 <br>
 
 ## Styling Convention
-The [PEP8](https://peps.python.org/pep-0008/) styling convention was used in the development of this application. 
+The [PEP8](https://peps.python.org/pep-0008/) styling convention was referenced in the development of this application. 
 
 <b>Snake Case: </b>The snake_case naming convention was adopted for this application. This kept the code clean and easy to read.
 
@@ -29,35 +29,35 @@ The [PEP8](https://peps.python.org/pep-0008/) styling convention was used in the
 
 ## Features
 ### Search by name or email
-This feature will allow users of the application to search for employees in the human resources application. Users can search by name, where the name must be an exact match, or users can search by email. The application can use a for loop to find matching employees.
+This feature allows users of the application to search for employees in the human resources application. Users can search by name, where the name must be an exact match, or users can search by email. The application uses a for loop to find matching employees.
 
 ![Search by name or email](docs/employee_search.png)
 
 <br>
 
 ### View all employees
-Users will have the option to view all of the employees within the Employee class. Employees will be listed as one per line, with commas separating each attribute.
+Users have the option to view all of the employees within the Employee class. Employees are listed as one per line, with commas separating each attribute.
 
 ![View all employees](docs/list_all.png)
 
 <br>
 
 ### Export employees to csv
-This feature will allow users of the application to export employees into a csv file. This will be done using the csv python module and file handling. Users will be prompted after searching for employees to ask whether they would like to export their search as a csv.
+This feature allows users of the application to export employees into a csv file. This is done using the csv python module and file handling. Users are prompted after searching for employees to ask whether they would like to export their search as a csv.
 
 ![Export employees to csv](docs/export_csv.png)
 
 <br>
 
 ### Add & delete employees
-Adding and deleting employees is vital in a human resources management system. Users will be able to add new employees to the database, as well as delete existing employees by name or email.
+Adding and deleting employees is vital in a human resources management system. Users are able to add new employees to the database, as well as delete existing employees by name or email.
 
 ![Add & delete employees](docs/employee_delete.png)
 
 <br>
 
 ### Edit existing employee
-Users will be able to edit existing employees within the database. Users could search by name or email to find the employee they wish to edit.
+Users are able to edit existing employees within the database. Users can search by name or email to find the employee they wish to edit.
 
 ![Edit existing employee](docs/edit_options.png)
 
