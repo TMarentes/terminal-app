@@ -72,11 +72,11 @@ Users are able to edit existing employees within the database. Users can search 
 
 <b>Bash: </b> [Windows](https://hackernoon.com/how-to-install-bash-on-windows-10-lqb73yj3)  / [Mac](https://scriptingosx.com/2019/02/install-bash-5-on-macos/)
 
-<b>Pip: </b>
+<b>Pip: </b> [pypi.org/pip](https://pypi.org/project/pip/)
 
-<b>Requests: </b>
+<b>Requests: </b> [pypi.org/requests](https://pypi.org/project/requests/)
 
-<b>Pytest: </b>
+<b>Pytest: </b>  [pytest.org](https://docs.pytest.org/en/7.3.x/)
 
 
 
