@@ -83,24 +83,24 @@ Users are able to edit existing employees within the database. Users can search 
 <br>
 
 ### System Requirements
-This application runs on Windows, Mac or Linux.
+This application runs on <b>Windows, Mac or Linux</b>.
 
 <br>
 
 ### Installation
-1. Download the contents of the "src" folder in the GitHub repository
+1. Download the contents of the "src" folder in the GitHub repository.
 
 ![src folder](docs/download.png)
 
-2. Ensure pip is installed - with pip, install "requests" and "pytest"
+2. Navigate to the "src" folder in the terminal. Enter "chmod +x ./script.sh" into the terminal.
 
-![pip install](docs/pip_install.png)
+![chmod](docs/chmod.png)
 
-3. Execute the "script.sh" file to run the application
+3. Execute the "script.sh" file to run the application.
 
 ![script file](docs/scriptsh.png)
 
-4. Users without Python3 installed will be prompted to install Python3
+4. Users without the required dependencies will be prompted to install them.
 
 <br>
 
@@ -109,6 +109,7 @@ This application runs on Windows, Mac or Linux.
 ![Welcome Screen](docs/welcome_screen.png)
 
 Upon running the application, users are first greeted with a welcome screen. Users can enter anything to continue, or can simply press enter.
+
 <br>
 
 <b>Main Menu Interface</b>
