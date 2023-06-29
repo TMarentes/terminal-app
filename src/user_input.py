@@ -1,35 +1,35 @@
 class UserInput:
-    def __init__ (self):
+    def __init__(self):
         pass
 
     def main_menu_selection() -> int:
         selection = int(input("Enter your selection: "))
-        if selection in (1,2,3,4):
+        if selection in (1, 2, 3, 4):
             return selection
         else:
             raise ValueError
-    
+
     def search_menu_selection() -> int:
         selection = int(input("Enter your selection: "))
-        if selection in (1,2,3,4):
+        if selection in (1, 2, 3, 4):
             return selection
         else:
             raise ValueError
-        
+
     def edit_menu_selection() -> int:
         selection = int(input("Enter your selection: "))
-        if selection in (1,2,3):
+        if selection in (1, 2, 3):
             return selection
         else:
             raise ValueError
 
     def delete_menu_selection() -> int:
         selection = int(input("Enter your selection: "))
-        if selection in (1,2,3):
+        if selection in (1, 2, 3):
             return selection
         else:
             raise ValueError
-    
+
     def new_employee() -> list:
         name = input("Enter a name: ")
         email = input("Enter an email: ")
@@ -39,8 +39,7 @@ class UserInput:
             return name, email, department, salary
         except ValueError:
             print("Salary must be a number")
-        
-    
+
     def export_as_csv() -> bool:
         selection = input("""
 
@@ -49,7 +48,7 @@ Type 'Yes' to export as csv, enter anything else to skip: """)
             return True
         else:
             return False
-    
+
     def enter_to_continue() -> None:
         input("Press enter to continue...")
 
@@ -61,7 +60,6 @@ Type 'Yes' to export as csv, enter anything else to skip: """)
 
     def search_by_department() -> str:
         return input("Enter a department: ")
-    
 
     def update_by_name() -> str:
         return input("Enter a new name: ")
@@ -71,6 +69,6 @@ Type 'Yes' to export as csv, enter anything else to skip: """)
 
     def update_by_department() -> str:
         return input("Enter a new department: ")
-    
+
     def update_by_salary() -> str:
         return input("Enter a new salary: ")

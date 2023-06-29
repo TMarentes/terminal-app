@@ -1,10 +1,11 @@
 import time
+from request import Requests
+
 
 class Interface:
     def __init__(self):
         pass
 
-   
     def start_interface() -> None:
         local = time.localtime()
         local_hours = local.tm_hour
@@ -12,14 +13,19 @@ class Interface:
         local_year = local.tm_year
         local_month = local.tm_mon
         local_day = local.tm_mday
+        quote = Requests.get_quote()
         print(f"""
 |   THEO'S HUMAN RESOURCES MANAGER
 |   Time: {local_hours}:{local_mins} - Date: {local_day}/{local_month}/{local_year}
+|
 |   -> Features: https://github.com/TMarentes/terminal-app#features
 |   -> Documentation: https://github.com/TMarentes/terminal-app#help-documentation
+| 
+|   "{quote[0]["quote"]}"
+|   - {quote[0]["author"]}
     
         """)
-    
+
     def menu_interface() -> None:
         print("""
 |   HUMAN RESOURCES MENU
@@ -30,7 +36,7 @@ class Interface:
 |   [Enter anything else to exit]
         """)
 
-    def search_interface() -> None: 
+    def search_interface() -> None:
         print("""
 |   EMPLOYEE SEARCH OPTIONS
 |   [1] Search by name
@@ -49,7 +55,7 @@ class Interface:
 |   [Enter anything else to exit]
         """)
 
-    def delete_interface() -> None: 
+    def delete_interface() -> None:
         print("""
 |   EMPLOYEE DELETE OPTIONS
 |   [1] Delete by name
