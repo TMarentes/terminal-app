@@ -7,5 +7,5 @@ then
 fi
 
 chmod +x ./script.sh 
-
+# pip install requests
 python3 ./main.py

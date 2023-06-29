@@ -12,6 +12,7 @@ Employee("Dwight Schrute", "dwight.schrute@gmail.com", "sales", 87000)
 Employee("Angela Martin", "angela.martin@gmail.com", "accounting", 72000)
 Employee("Meredith Palmer", "angela.martin@gmail.com", "relations", 74000)
 
+
 if __name__ == "__main__":
 
     Interface.start_interface()

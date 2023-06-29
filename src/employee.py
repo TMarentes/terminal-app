@@ -65,7 +65,7 @@ class Employee:
 
     def new_employee(name, email, department, salary) -> str:
         Employee(name, email, department, salary)
-        print("New employee,", name, ", was added")
+        print("New employee added:", name)
         return "Employee added"
 
     def delete_employee_by_name(name) -> bool:

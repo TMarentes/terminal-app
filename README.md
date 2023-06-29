@@ -72,6 +72,14 @@ Users are able to edit existing employees within the database. Users can search 
 
 <b>Bash: </b> [Windows](https://hackernoon.com/how-to-install-bash-on-windows-10-lqb73yj3)  / [Mac](https://scriptingosx.com/2019/02/install-bash-5-on-macos/)
 
+<b>Pip: </b>
+
+<b>Requests: </b>
+
+<b>Pytest: </b>
+
+
+
 <br>
 
 ### System Requirements
@@ -84,11 +92,15 @@ This application runs on Windows, Mac or Linux.
 
 ![src folder](docs/download.png)
 
-2. Execute the "script.sh" file to run the application
+2. Ensure pip is installed - with pip, install "requests" and "pytest"
+
+![pip install](docs/pip_install.png)
+
+3. Execute the "script.sh" file to run the application
 
 ![script file](docs/scriptsh.png)
 
-3. Users without Python3 installed will be prompted to install Python3
+4. Users without Python3 installed will be prompted to install Python3
 
 <br>
 
