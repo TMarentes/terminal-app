@@ -270,6 +270,8 @@ To edit an existing employee, the user first must search for the employee, then 
 |create user input for new data| 02/07/23     |  ✅  | 
 |add employee class method to edit employee|  02/07/23      |  ✅  | 
 
+![Trello Board](docs/edit_employee.png)
+
 <br>
 
 ### Export employees to csv
