@@ -3,7 +3,7 @@
 <br>
 
 ## Contents
-[Styling Conventions](https://github.com/TMarentes/terminal-app#styling-convention)
+[Styling Convention](https://github.com/TMarentes/terminal-app#styling-convention)
 
 [Application Features](https://github.com/TMarentes/terminal-app#features)
 
