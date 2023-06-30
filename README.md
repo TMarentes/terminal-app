@@ -1,5 +1,6 @@
 # Human Resources: Terminal Application
-### GitHub Repository: [github.com/tmarentes/terminal-app](https://github.com/TMarentes/terminal-app) 
+### Presentation Video: [youtube.com](https://github.com/TMarentes/terminal-app) 
+### GitHub Repository: [github.com](https://github.com/TMarentes/terminal-app) 
 <br>
 
 ## Contents
