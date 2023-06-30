@@ -97,9 +97,9 @@ This application runs on <b>Windows, Mac or Linux</b>.
 
 ![chmod](docs/chmod.png)
 
-3. Execute the "script.sh" file to run the application.
+3. Execute the "run.sh" file to run the application.
 
-![script file](docs/scriptsh.png)
+![script file](docs/runsh.png)
 
 4. Users without the required dependencies will be prompted to install them.
 
