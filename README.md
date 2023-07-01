@@ -103,6 +103,8 @@ This application runs on <b>Windows, Mac or Linux</b>.
 
 4. Users without the required dependencies will be prompted to install them.
 
+5. To run the "pytest" functions, execute the "run_pytest.sh" file.
+
 <br>
 
 ### Commands
