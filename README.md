@@ -160,9 +160,14 @@ The edit interface presents 4 options to the user.
 
 <b>Add Employee Interface</b>
 
-The add employee interface takes 4 inputs from the user. 
+The add interface presents 4 options to the user.  
 
 ![Add Employee](docs/add_interface.png)
+
+- Entering "1" allows users to add a new employee.
+- Entering "2" allows users to import The Office UK employees.
+- Entering "3" allows users to import The Office US employees.
+- Entering anything else will exit the application
 
 - The first prompt asks for the name of the employee.
 - The second prompt asks for the email of the employee.
