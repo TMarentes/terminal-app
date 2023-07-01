@@ -4,14 +4,7 @@ from user_input import UserInput
 from interface import Interface
 from search import Search
 from employee import Employee
-
-Employee("Michael Scott", "michael.scott@gmail.com", "manager", 105000)
-Employee("Pam Beesly", "pam.beesly@gmail.com", "assistant", 62000)
-Employee("Jim Halpert", "jim.halpert@gmail.com", "sales", 86000)
-Employee("Dwight Schrute", "dwight.schrute@gmail.com", "sales", 87000)
-Employee("Angela Martin", "angela.martin@gmail.com", "accounting", 72000)
-Employee("Meredith Palmer", "angela.martin@gmail.com", "relations", 74000)
-
+from request import Requests
 
 
 if __name__ == "__main__":
@@ -98,13 +91,34 @@ if __name__ == "__main__":
 
                 case 3:  # new employee
                     Terminal.clear_terminal()
-                    input = UserInput.new_employee()
+                    Interface.add_interface()
                     try:
-                        Employee.new_employee(
-                            input[0], input[1], input[2], input[3])
-                    except TypeError:
-                        print("Unable to create new employee")
-                    UserInput.enter_to_continue()
+                        option5 = UserInput.add_menu_selection()
+                        Terminal.clear_terminal()
+                    except ValueError:
+                        print("Closing application")
+                        break
+
+                    match option5:
+                        case 1:
+                            input = UserInput.new_employee()
+                            try:
+                                Employee.new_employee(
+                                    input[0], input[1], input[2], input[3])
+                            except TypeError:
+                                print("Unable to create new employee")
+                            UserInput.enter_to_continue()
+                        case 2:
+                            Employee.add_employees_by_request(Requests.get_uk())
+                            print("Employees added")
+                            UserInput.enter_to_continue()
+                        case 3:
+                            Employee.add_employees_by_request(Requests.get_us())
+                            print("Employees added")
+                            UserInput.enter_to_continue()   
+
+
+                        
 
                 case 4:  # delete employee
                     Terminal.clear_terminal()

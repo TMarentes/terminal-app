@@ -30,9 +30,9 @@ class Interface:
         print("""
 |   HUMAN RESOURCES MENU
 |   [1] Search employees
-|   [2] Edit employee
-|   [3] Add new employee
-|   [4] Delete employee
+|   [2] Edit employees
+|   [3] Add new employees
+|   [4] Delete employees
 |   [Enter anything else to exit]
         """)
 
@@ -61,5 +61,14 @@ class Interface:
 |   [1] Delete by name
 |   [2] Delete by email
 |   [3] Go back
+|   [Enter anything else to exit]
+        """)
+
+    def add_interface() -> None:
+        print("""
+|   EMPLOYEE ADD OPTIONS
+|   [1] Add new employee
+|   [2] Import "The Office UK" employees
+|   [3] Import "The Office US" employees
 |   [Enter anything else to exit]
         """)

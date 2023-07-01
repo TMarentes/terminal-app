@@ -29,6 +29,13 @@ class UserInput:
             return selection
         else:
             raise ValueError
+        
+    def add_menu_selection() -> int:
+        selection = int(input("Enter your selection: "))
+        if selection in (1, 2, 3):
+            return selection
+        else:
+            raise ValueError
 
     def new_employee() -> list:
         name = input("Enter a name: ")

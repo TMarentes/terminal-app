@@ -97,3 +97,8 @@ class Employee:
         else:
             print("Employee not found")
             return found
+
+    def add_employees_by_request(data) -> None:
+        for i in data:
+            Employee(i["Name"], i["Email"], i["Department"], i["Salary"])
+        
