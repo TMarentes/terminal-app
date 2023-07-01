@@ -1,5 +1,4 @@
 from employee import Employee
-
 import pytest
 
 Employee("Michael Scott", "michael.scott@gmail.com", "manager", 105000)
@@ -10,11 +9,11 @@ class TestEmployee:
 
     def test_delete_by_name_valid(self) -> None:
         result = Employee.delete_employee_by_name("Pam Beesly")
-        assert result == True
+        assert result is True
 
     def test_delete_by_name_invalid(self) -> None:
         result = Employee.delete_employee_by_name("John Lennon")
-        assert result == False
+        assert result is False
 
     def test_entering_new_salary(self) -> None:
         user_input = "String"

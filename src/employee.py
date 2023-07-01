@@ -17,7 +17,7 @@ class Employee:
             if Employee.employees[i].name.lower() == name.lower():
                 found = True
 
-        if found == True:
+        if found:
 
             input_name = UserInput.update_by_name()
             input_email = UserInput.update_by_email()
@@ -43,7 +43,7 @@ class Employee:
             if Employee.employees[i].email.lower() == email.lower():
                 found = True
 
-        if found == True:
+        if found:
 
             input_name = UserInput.update_by_name()
             input_email = UserInput.update_by_email()
@@ -76,7 +76,7 @@ class Employee:
                 found = True
                 break
 
-        if found == True:
+        if found:
             print("Employee deleted")
             return found
         else:
@@ -91,7 +91,7 @@ class Employee:
                 found = True
                 break
 
-        if found == True:
+        if found:
             print("Employee deleted")
             return found
         else:
