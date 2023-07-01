@@ -169,11 +169,6 @@ The add interface presents 4 options to the user.
 - Entering "3" allows users to import The Office US employees.
 - Entering anything else will exit the application
 
-- The first prompt asks for the name of the employee.
-- The second prompt asks for the email of the employee.
-- The third prompt asks for the department of the employee.
-- The fourth prompt asks for the salary of the employee.
-
 <br>
 
 <b>Delete Employee Interface</b>
