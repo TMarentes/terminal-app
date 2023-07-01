@@ -1,7 +1,19 @@
 #!/bin/bash
 
-./dependency_check.sh
+./scripts/dependency_check.sh
 
-python -m pytest ./test_employee.py
+echo "Starting Python Virtual Environment..."
 
-python -m pytest ./test_search.py
+python -m venv env
+
+source env/Scripts/activate
+
+pip install -r requirements.txt
+
+python -m pytest ./scripts/test_employee.py
+
+python -m pytest ./scripts/test_search.py
+
+deactivate
+
+rm -r env

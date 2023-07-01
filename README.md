@@ -93,7 +93,7 @@ This application runs on <b>Windows, Mac or Linux</b>.
 
 ![src folder](docs/download.png)
 
-2. Navigate to the "src" folder in the terminal. Enter "chmod +x ./script.sh" into the terminal.
+2. Navigate to the "src" folder in the terminal. Enter "chmod +x ./run.sh" into the terminal.
 
 ![chmod](docs/chmod.png)
 

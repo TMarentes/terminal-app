@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./dependency_check.sh
+./scripts/dependency_check.sh
 
 echo "Starting Python Virtual Environment..."
 
@@ -10,7 +10,7 @@ source env/Scripts/activate
 
 pip install -r requirements.txt
 
-python3 ./main.py
+python3 ./scripts/main.py
 
 deactivate
 
