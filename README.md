@@ -1,5 +1,5 @@
 # Human Resources: Terminal Application
-### Presentation Video: [youtube.com](https://github.com/TMarentes/terminal-app) 
+### Presentation Video: [youtube.com](https://youtu.be/NedFHFbbe_E) 
 ### GitHub Repository: [github.com](https://github.com/TMarentes/terminal-app) 
 <br>
 
