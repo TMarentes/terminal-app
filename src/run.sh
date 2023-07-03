@@ -6,8 +6,7 @@ echo "Starting Python Virtual Environment..."
 
 python3 -m venv env
 
-FILE=env/Scripts/activate
-if [ -f "$FILE" ]; then
+if [ -f "env/Scripts/activate" ]; then
   source env/Scripts/activate
 else
   source env/bin/activate
