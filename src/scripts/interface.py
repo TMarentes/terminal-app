@@ -17,16 +17,14 @@ class Interface:
         quote = Requests.get_quote()
         quote_length = len(quote[0]["quote"])
         selected_quote = ""
-        for i in range(0,20): #sets request limit to 20
+        for i in range(0, 20):  # sets request limit to 20
             if quote_length >= 70:
                 quote = Requests.get_quote()
                 quote_length = len(quote[0]["quote"])
             else:
-                selected_quote = quote[0]["quote"] 
+                selected_quote = quote[0]["quote"]
                 break
-  
-        
-            
+
         print(f"""
 |   THEO'S HUMAN RESOURCES MANAGER
 |   Time: {local_hours}:{local_mins} - Date: {local_day}/{local_month}/{local_year}
