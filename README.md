@@ -67,16 +67,15 @@ Users are able to edit existing employees within the database. Users can search 
 
 ### Dependencies
 
-
 The following dependencies must be installed to run the application:
 
-This application requires <b>Python 3.10</b> or higher to run. This is because it uses "match-case" statements, which were released to Python in version 3.10.
-
-<b>Python: </b> [Python.org](https://www.python.org/downloads/)
+<b>Python 3.10+: </b> [Python.org](https://www.python.org/downloads/)
 
 <b>Bash: </b> [Windows](https://hackernoon.com/how-to-install-bash-on-windows-10-lqb73yj3)  / [Mac](https://scriptingosx.com/2019/02/install-bash-5-on-macos/)
 
 <b>Pip: </b> [pypi.org/pip](https://pypi.org/project/pip/)
+
+This application requires <b>Python 3.10</b> or higher to run. This is because it uses "match-case" statements, which were released to Python in version 3.10.
 
 <br>
 
