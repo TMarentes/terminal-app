@@ -9,7 +9,7 @@ if ! [[ -x "$(command -v pip)" ]]; then
 fi
 
 
-if python -c "import venv" &>/dev/null; then
+if python3 -c "import venv" &>/dev/null; then
   echo 'Venv is already installed.'
 else
   echo 'Venv is not installed. Type "Y" to install venv, or enter anything else to exit.'

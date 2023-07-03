@@ -4,9 +4,14 @@
 
 echo "Starting Python Virtual Environment..."
 
-python -m venv env
+python3 -m venv env
 
-source env/Scripts/activate
+FILE=env/Scripts/activate
+if [ -f "$FILE" ]; then
+  source env/Scripts/activate
+else
+  source env/bin/activate
+fi
 
 pip install -r requirements.txt
 

@@ -1,5 +1,6 @@
 import time
 from request import Requests
+from employee import Employee
 
 
 class Interface:
@@ -14,6 +15,13 @@ class Interface:
         local_month = local.tm_mon
         local_day = local.tm_mday
         quote = Requests.get_quote()
+        quote_length = len(quote[0]["quote"])
+        selected_quote = ""
+        while quote_length <= 30:
+            quote = Requests.get_quote()
+            quote_length = len(quote[0]["quote"])
+        selected_quote = quote[0]["quote"] 
+            
         print(f"""
 |   THEO'S HUMAN RESOURCES MANAGER
 |   Time: {local_hours}:{local_mins} - Date: {local_day}/{local_month}/{local_year}
@@ -21,14 +29,16 @@ class Interface:
 |   -> Features: https://github.com/TMarentes/terminal-app#features
 |   -> Documentation: https://github.com/TMarentes/terminal-app#help-documentation
 | 
-|   "{quote[0]["quote"]}"
+|   "{selected_quote}"
 |   - {quote[0]["author"]}
     
         """)
 
     def menu_interface() -> None:
-        print("""
+        total_employees = len(Employee.employees)
+        print(f"""
 |   HUMAN RESOURCES MENU
+|   Total Employees: {total_employees}
 |   [1] Search employees
 |   [2] Edit employees
 |   [3] Add new employees
