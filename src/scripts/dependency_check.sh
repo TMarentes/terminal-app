@@ -1,10 +1,10 @@
 if ! [[ -x "$(command -v python3)" ]]; then
-  echo 'Error: This program uses Python3, but it is not installed. To install it, go to: https://installpython3.com/' >&2
+  echo 'Error: This program requires Python 3.10+ but it is not installed. To install it, go to: https://installpython3.com/' >&2
   exit 1
 fi
 
 if ! [[ -x "$(command -v pip)" ]]; then
-  echo 'Error: This program requires Pip, but it is not installed. To install it, go to: https://pypi.org/project/pip/' >&2
+  echo 'Error: This program requires Pip but it is not installed. To install it, go to: https://pypi.org/project/pip/' >&2
   exit 1
 fi
 
