@@ -114,6 +114,8 @@ class Logic:
                                 Employee.add_employees_by_request(Requests.get_us())
                                 print("Employees added")
                                 UserInput.enter_to_continue()   
+                            case 4:
+                                pass
 
 
                             

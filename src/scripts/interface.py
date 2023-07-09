@@ -83,5 +83,6 @@ class Interface:
 |   [1] Add new employee
 |   [2] Import "The Office UK" employees
 |   [3] Import "The Office US" employees
+|   [4] Go back
 |   [Enter anything else to exit]
         """)

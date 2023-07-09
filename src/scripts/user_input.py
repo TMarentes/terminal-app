@@ -32,7 +32,7 @@ class UserInput:
         
     def add_menu_selection() -> int:
         selection = int(input("Enter your selection: "))
-        if selection in (1, 2, 3):
+        if selection in (1, 2, 3, 4):
             return selection
         else:
             raise ValueError
